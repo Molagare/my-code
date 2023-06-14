@@ -1,6 +1,14 @@
 ul {
     list-style: none;
     width: 75vw;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-box-flex: 1;
+    height: 100px;
+    padding:30px;
+    text-align: center;
+    
 
     /* add solution here */
 }
@@ -9,6 +17,8 @@ li {
     padding: 10px;
     margin: 10px;
     background-color: rgb(245, 173, 41);
+    width: 200px;
+    height: 200px;
 
     /* add solution here.. */
 
