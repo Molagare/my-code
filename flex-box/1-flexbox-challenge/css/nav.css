@@ -1,12 +1,24 @@
 nav ul {
     list-style: none;
     padding-left: 0;
+    display:flex;
+    -webkit-box-flex: 1;
+    padding: 30px;
+    margin:50px;
+    justify-content: space-between;
+
 
     /* add solution here */
 }
 
+.home{background-color: blue;
+      color:white;
+      border-radius: 10px;
+}
+
 li {
     padding: 0.5rem;
+
 }
 
 a {
@@ -21,3 +33,4 @@ a:hover {
     background-color: rgb(75, 75, 218);
     color: white;
 }
+
