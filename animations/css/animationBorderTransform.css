@@ -1,0 +1,16 @@
+ /* The animation code */
+
+  @keyframes: animate
+      0%{filter: hue rotate(0deg);}
+      100% {filter:hue-rotate(360deg)}
+img {
+      margin:0;
+      padding: 0;
+      height: 400px;
+      width: 350px
+      background-color: red;
+      animation-name: animate;
+  animation-duration: 2s
+  animation-iteration-count: infinite;  
+  animation: animate 3s linear infinite;  
+} 
